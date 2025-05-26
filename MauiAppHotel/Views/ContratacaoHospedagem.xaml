@@ -12,7 +12,7 @@
 
         <Label Text="Cálculo da Diária"
                FontFamily="PTSerif-Bold"
-               FontSize="50"
+               FontSize="40"
                TextColor="{StaticResource Primary}" />
 
         <Frame Padding="10">
@@ -51,7 +51,7 @@
                 </Grid>
                 <Label Text="Escolha sua suíte" />
                 <Picker x:Name ="pck_quarto"
-                       Title="Selecione sua Acomodação"/>
+                       Title="Selecione sua Acomodação : "/>
 
                 <Frame Padding="10"
                        Margin="10">
@@ -74,11 +74,11 @@
 
                     </VerticalStackLayout>
                 </Frame>
-                <Button Text="Avançar"/>
+                <Button Text="Avançar" Clicked="Button_Clicked_1"/>
 
-                <Frame Padding="15"></Frame>
+                <Frame Padding="20"></Frame>
 
-                <Button Text="Sobre Aplicativo" Clicked="Button_Clicked"/>
+                <Button Text="Sobre" Clicked="Button_Clicked"/>
 
             </VerticalStackLayout>
             

@@ -21,4 +21,19 @@ public partial class ContratacaoHospedagem : ContentPage
 
 
     }
+
+    private void Button_Clicked_1(object sender, EventArgs e)
+    {
+        try
+        {
+            Navigation.PushAsync(new HospedagemContratada ());
+
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Ops", ex.Message, "OK");
+        }
+
+
+    }
 }
