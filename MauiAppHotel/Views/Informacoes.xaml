@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.Informacoes"
              Title="Informacoes"
-             BackgroundColor="Black"
+             BackgroundColor="Green"
              NavigationPage.HasNavigationBar="False">
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
@@ -14,20 +14,23 @@
         <Label Text="Desenvolvedor(a) : Lara Souza"
             FontSize="20"
             TextColor="White"
+            FontFamily="OpenSans-Semibold"
             HorizontalOptions="Center"/>
 
         <Label Text="Ano de Desenvolvimento: 2025"
             FontSize="20"
             TextColor="White"
+            FontFamily="OpenSans-Semibold"
             HorizontalOptions="Center"/>
 
         <Label Text="Versão do Aplicativo : 1.0.0"
             FontSize="20"
             TextColor="White"
+            FontFamily="OpenSans-Semibold"
             HorizontalOptions="Center"/>
 
         <Button Text="Voltar"
-             Clicked="Button_Clicked"   
+             Clicked="Button_Clicked" HorizontalOptions="Center"  
              BackgroundColor="{StaticResource Primary}"
              TextColor="White"/>
         
