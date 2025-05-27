@@ -9,7 +9,7 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="20" Spacing="10">
 
         <Label Text="Suíte Super Luxo"
-               TextColor="Black" 
+               TextColor="White" 
                FontFamily="PTSerif-Bold"
                FontSize="40"
                HorizontalTextAlignment="Center" />
