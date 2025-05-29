@@ -5,12 +5,13 @@
         public Quarto QuartoSelecionado { get; set; }
         public int QntAdultos { get; set; }
         public int QntCriancas { get; set; }
-        public DateTime DataChekin { get; set; }
-        public DateTime DataChekout { get; set; }
+        public DateTime DataChekIn { get; set; }
+        public DateTime DataChekOut { get; set; }
 
-        public int Estadia => DataChekout.Subtract(DataChekin).Days;
-
-
+        public int Estadia
+        {
+            get =>  DataChekOut.Subtract(DataChekIn).Days;
+        }
         public double ValorTotal
         {
             get
