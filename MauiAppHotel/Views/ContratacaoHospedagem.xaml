@@ -1,19 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.ContratacaoHospedagem"
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="Black">
+             BackgroundColor="{StaticResource Gray100}">
 
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10"
                          Spacing="10">
 
         <Label Text="Cálculo da Diária"
-               FontFamily="PTSerif-Bold"
+               FontFamily="Kalam"
                FontSize="50"
-               TextColor="White" />
+               TextColor="{StaticResource Primary}" />
 
         <Frame Padding="10">
             <VerticalStackLayout>
@@ -88,7 +88,6 @@
                 </Frame>
 
                 <Button Text="Avançar" Clicked="Button_Clicked"   />
-               
 
             </VerticalStackLayout>
         </Frame>
