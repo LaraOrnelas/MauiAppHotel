@@ -1,5 +1,4 @@
-﻿
-using MauiAppHotel.Models;
+﻿using MauiAppHotel.Models;
 
 namespace MauiAppHotel
 {
